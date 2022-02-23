@@ -39,7 +39,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "DKU_TUTORIAL_AUTOMATION",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -150,7 +151,8 @@
       }
     }
   },
-  "name": "Automation (Tutorial)",
+  "name": "Automation (Tutorial) for Administrator",
+  "projectStatus": "Sandbox",
   "imgPattern": 2,
   "metrics": {
     "probes": [],
@@ -207,11 +209,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 25,
+    "versionNumber": 26,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1645589459175
+    "lastModifiedOn": 1645589462713
   },
   "creationTag": {
     "versionNumber": 0,
