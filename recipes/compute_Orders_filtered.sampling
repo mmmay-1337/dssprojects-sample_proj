@@ -1,22 +1,28 @@
 {
-  "expression": "(diff(asDate(\"2017-03-01T00:00:00.000Z\"),val(\u0027order_date\u0027),\"days\") \u003c 30) \u0026\u0026 val(\u0027order_number\u0027) \u003d\u003d 1",
-  "enabled": true,
   "uiData": {
+    "mode": "CUSTOM",
     "conditions": [
       {
-        "num": 1,
         "col": "pages_visited",
         "input": "order_number",
+        "num": 1,
         "operator": "\u003d\u003d [number]"
       },
       {
-        "num": 0,
         "input": "order_date",
         "col": "order_date_year",
+        "num": 0,
         "operator": "contains"
       }
-    ],
-    "mode": "CUSTOM"
+    ]
   },
-  "distinct": false
+  "expression": "(diff(asDate(\"2017-03-01T00:00:00.000Z\"),val(\u0027order_date\u0027),\"days\") \u003c 30) \u0026\u0026 val(\u0027order_number\u0027) \u003d\u003d 3",
+  "$status": {
+    "validated": true,
+    "fullyTranslated": true,
+    "ok": true,
+    "sql": "\u00272017-03-01 00:00:00\u0027 - \"order_date\" \u003c 30 AND (\"order_number\" \u003d 3)"
+  },
+  "distinct": false,
+  "enabled": true
 }
