@@ -6,6 +6,9 @@
     "kv": {}
   },
   "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -30,6 +33,7 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
     "versionNumber": 4,
     "lastModifiedBy": {
@@ -45,6 +49,7 @@
     "lastModifiedOn": 1498813311341
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }

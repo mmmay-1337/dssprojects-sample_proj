@@ -149,7 +149,7 @@
     },
     "dkuProperties": []
   },
-  "name": "Automation (Tutorial) for Administrator",
+  "name": "Automation (Tutorial) for Administrator (another-branch)",
   "imgPattern": 2,
   "metrics": {
     "probes": [],
@@ -206,11 +206,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 29,
+    "versionNumber": 30,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1653956847225
+    "lastModifiedOn": 1653956850611
   },
   "creationTag": {
     "versionNumber": 0,
@@ -220,7 +220,7 @@
     "lastModifiedOn": 1498738782025
   },
   "description": "\u003cp class\u003d\"text-center\"\u003e\n   \u003ca href\u003d\"https://academy.dataiku.com/automation-course\" target\u003d\"_blank\" class\u003d\"btn btn--contained btn-datasets-color btn--large\"\u003e\u003ci class\u003d\"icon-dku-sample_project\" class\u003d\"btn-cta-big-mod-icon\" /\u003e\u0026nbsp;Start learning\n  \u003c/a\u003e\n\u003c/p\u003e\n\nThe lifecycle of a data project doesn\u0027t end when a flow is complete.  It’s not possible to Dev/Test a model to the point where it’s “perfect” because data is always changing.  However, ensuring that your data and models are up-to-date is something that you don\u0027t want to have to do manually.   Dataiku DSS has automation features to help with this.\n  \nIn this tutorial, you will learn the basics of:\n- scheduling jobs using scenarios\n- monitoring jobs \n \nWe will work with the fictional retailer Haiku T-Shirt\u0027s data.",
-  "shortDesc": "Schedule and monitor jobs",
+  "shortDesc": "Schedule and monitor jobs\nThe project *AUTOMATION_TUTORIAL_FOR_ADMINISTRATOR_ANOTHER_BRANCH* was copied from *DKU_TUTORIAL_AUTOMATION* by Administrator on May 31st 2022",
   "tags": [
     "tutorial",
     "section:Automation",
