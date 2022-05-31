@@ -150,7 +150,6 @@
     "dkuProperties": []
   },
   "name": "Automation (Tutorial) for Administrator",
-  "projectStatus": "Sandbox",
   "imgPattern": 2,
   "metrics": {
     "probes": [],
@@ -207,11 +206,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 29,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1653956484302
+    "lastModifiedOn": 1653956847225
   },
   "creationTag": {
     "versionNumber": 0,
@@ -225,7 +224,8 @@
   "tags": [
     "tutorial",
     "section:Automation",
-    "downloads"
+    "downloads",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
