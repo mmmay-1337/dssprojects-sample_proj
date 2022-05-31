@@ -5,22 +5,41 @@
   "params": {
     "engineParams": {
       "spark": {
-        "pipelineAllowStart": true,
-        "pipelineAllowMerge": true,
+        "readParams": {
+          "mode": "AUTO",
+          "autoModeRepartitionInto": 10,
+          "map": {
+            "Orders_enriched": {
+              "repartition": 10
+            }
+          }
+        },
+        "useGlobalMetastore": false,
+        "useNativeProcessors": true,
         "sparkConfig": {
           "inheritConf": "default",
           "conf": []
         },
-        "readParams": {
-          "map": {
-            "Orders_enriched": {
-              "repartition": 10,
-              "cache": false
-            }
-          }
-        }
+        "executionEngine": "SPARK_SUBMIT",
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true,
+        "skipPrerunValidate": false
+      },
+      "hive": {
+        "inheritConf": "default",
+        "hiveconf": [],
+        "executionEngine": "HIVECLI_LOCAL",
+        "addDkuUdf": false,
+        "skipPrerunValidate": false
+      },
+      "impala": {
+        "forceStreamMode": true
       },
       "hadoopConfigKeys": [],
+      "sqlPipelineParams": {
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true
+      },
       "maxThreads": 8
     }
   },
@@ -28,6 +47,9 @@
     "kv": {}
   },
   "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -48,6 +70,7 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
     "versionNumber": 7,
     "lastModifiedBy": {
@@ -63,6 +86,7 @@
     "lastModifiedOn": 1498813405550
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
