@@ -52,7 +52,7 @@
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
       "pruneBeforeSparkPipelines": true,
-      "mergeSqlPipelines": false,
+      "mergeSqlPipelines": true,
       "pruneBeforeSqlPipelines": true
     },
     "limitsSettings": {
@@ -70,7 +70,7 @@
       }
     },
     "relocationSettings": {
-      "sqlLikeRecipesInitializationMode": "RESOLVED_TABLE_REFERENCES"
+      "sqlLikeRecipesInitializationMode": "DATASET_REFERENCES"
     },
     "recipeEnginesPreferences": {
       "forbiddenEngines": [],
@@ -207,11 +207,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 31,
+    "versionNumber": 32,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1653957152066
+    "lastModifiedOn": 1654579219944
   },
   "creationTag": {
     "versionNumber": 0,
