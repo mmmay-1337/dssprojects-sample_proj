@@ -3,13 +3,23 @@
     "duplicated": {
       "color": "#3A85AD"
     },
-    "downloads": {},
+    "downloads": {
+      "color": "#de1ea5"
+    },
     "imported": {
       "color": "#263238"
     },
-    "creator:alex": {},
-    "section:Automation": {},
-    "tutorial": {},
-    "creator:admin": {}
+    "creator:alex": {
+      "color": "#1ac2ab"
+    },
+    "section:Automation": {
+      "color": "#1ac2ab"
+    },
+    "tutorial": {
+      "color": "#FFD83D"
+    },
+    "creator:admin": {
+      "color": "#28aadd"
+    }
   }
 }
