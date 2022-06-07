@@ -4,6 +4,10 @@
       "remote": "https://github.com/mmmay-1337/dss_project.git",
       "checkout": "refs/heads/main",
       "remotePath": "python",
+      "lastHash": "70f08efcc5e93980f7ff690bbec6cbc2f53fa781",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
