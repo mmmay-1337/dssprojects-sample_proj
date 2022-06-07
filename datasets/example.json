@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1654576652126
+    "lastModifiedOn": 1654576661606
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,7 +58,24 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"customer_id","type":"string","originalType":"text"},
+      {"name":"order_date_year_distinct","type":"bigint","originalType":"int8"},
+      {"name":"order_date_month_distinct","type":"bigint","originalType":"int8"},
+      {"name":"order_day_of_week_distinct","type":"bigint","originalType":"int8"},
+      {"name":"pages_visited_avg","type":"double","originalType":"float8"},
+      {"name":"total_sum","type":"double","originalType":"float8"},
+      {"name":"gender","type":"string","originalType":"text"},
+      {"name":"age_first_order","type":"bigint","originalType":"int8"},
+      {"name":"user_agent_brand","type":"string","originalType":"text"},
+      {"name":"user_agent_os","type":"string","originalType":"text"},
+      {"name":"user_agent_osversion","type":"string","originalType":"text"},
+      {"name":"user_agent_osflavor","type":"string","originalType":"text"},
+      {"name":"ip_address_city","type":"string","originalType":"text"},
+      {"name":"ip_address_geopoint","type":"string","originalType":"text"},
+      {"name":"campaign","type":"boolean","originalType":"bool"},
+      {"name":"count","type":"bigint","originalType":"int8"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
