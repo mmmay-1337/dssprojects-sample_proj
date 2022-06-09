@@ -156,7 +156,8 @@
       "avg": true,
       "countDistinct": false,
       "min": false,
-      "stddev": false,
+      "$selected": false,
+      "stddev": true,
       "first": false
     },
     {
@@ -454,6 +455,10 @@
           },
           {
             "name": "pages_visited_avg",
+            "type": "double"
+          },
+          {
+            "name": "pages_visited_stddev",
             "type": "double"
           },
           {
