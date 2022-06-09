@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1654739526742
+    "lastModifiedOn": 1654739628193
   },
   "creationTag": {
     "versionNumber": 0,
@@ -93,6 +93,7 @@
       {"name":"order_date_month_distinct","type":"bigint","meaning":"Text"},
       {"name":"order_day_of_week_distinct","type":"bigint","meaning":"DoubleMeaning"},
       {"name":"pages_visited_avg","type":"double"},
+      {"name":"pages_visited_stddev","type":"double"},
       {"name":"total_sum","type":"double"},
       {"name":"gender","type":"string"},
       {"name":"age_first_order","type":"bigint"},
