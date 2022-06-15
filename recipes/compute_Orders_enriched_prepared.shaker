@@ -285,7 +285,7 @@
         "renamings": [
           {
             "from": "order_date",
-            "to": "something"
+            "to": "somethign_different"
           }
         ]
       },
@@ -337,6 +337,7 @@
     "tshirt_category": 155,
     "order_date": 183,
     "ip_address_city": 176,
+    "somethign_different": 183,
     "order_day_of_week": 143,
     "order_week_of_year": 150,
     "campaign": 100,
