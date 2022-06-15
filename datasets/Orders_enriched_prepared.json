@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655263429159
+    "lastModifiedOn": 1655263489380
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,7 +88,7 @@
   },
   "schema": {
     "columns": [
-      {"name":"something","type":"date"},
+      {"name":"somethign_different","type":"date"},
       {"name":"order_date_year","type":"bigint"},
       {"name":"order_date_month","type":"bigint"},
       {"name":"order_week_of_year","type":"bigint"},
