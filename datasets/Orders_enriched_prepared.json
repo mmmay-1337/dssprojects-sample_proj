@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
-      "login": "alex"
+      "login": "admin"
     },
-    "lastModifiedOn": 1501611626884
+    "lastModifiedOn": 1655263429159
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,103 +88,30 @@
   },
   "schema": {
     "columns": [
-      {
-        "name": "order_date",
-        "type": "string"
-      },
-      {
-        "name": "order_date_year",
-        "type": "bigint"
-      },
-      {
-        "name": "order_date_month",
-        "type": "bigint"
-      },
-      {
-        "name": "order_week_of_year",
-        "type": "bigint"
-      },
-      {
-        "name": "order_date_day",
-        "type": "bigint"
-      },
-      {
-        "name": "order_day_of_week",
-        "type": "bigint"
-      },
-      {
-        "name": "pages_visited",
-        "type": "bigint"
-      },
-      {
-        "name": "order_id",
-        "type": "string"
-      },
-      {
-        "name": "order_number",
-        "type": "bigint"
-      },
-      {
-        "name": "customer_id",
-        "type": "string",
-        "meaning": "Text"
-      },
-      {
-        "name": "tshirt_category",
-        "type": "string"
-      },
-      {
-        "name": "total",
-        "type": "double"
-      },
-      {
-        "name": "gender",
-        "type": "string"
-      },
-      {
-        "name": "birthdate",
-        "type": "date"
-      },
-      {
-        "name": "age",
-        "type": "bigint"
-      },
-      {
-        "name": "user_agent_brand",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_os",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_osversion",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_osflavor",
-        "type": "string"
-      },
-      {
-        "name": "ip_address",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_country",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_city",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_geopoint",
-        "type": "string"
-      },
-      {
-        "name": "campaign",
-        "type": "boolean"
-      }
+      {"name":"something","type":"date"},
+      {"name":"order_date_year","type":"bigint"},
+      {"name":"order_date_month","type":"bigint"},
+      {"name":"order_week_of_year","type":"bigint"},
+      {"name":"order_date_day","type":"bigint"},
+      {"name":"order_day_of_week","type":"bigint"},
+      {"name":"pages_visited","type":"bigint"},
+      {"name":"order_id","type":"string"},
+      {"name":"order_number","type":"bigint"},
+      {"name":"customer_id","type":"string","meaning":"Text"},
+      {"name":"tshirt_category","type":"string"},
+      {"name":"total","type":"double"},
+      {"name":"gender","type":"string"},
+      {"name":"birthdate","type":"date"},
+      {"name":"age","type":"bigint"},
+      {"name":"user_agent_brand","type":"string"},
+      {"name":"user_agent_os","type":"string"},
+      {"name":"user_agent_osversion","type":"string"},
+      {"name":"user_agent_osflavor","type":"string"},
+      {"name":"ip_address","type":"string"},
+      {"name":"ip_address_geopoint","type":"string"},
+      {"name":"ip_address_city","type":"string"},
+      {"name":"ip_address_country","type":"string"},
+      {"name":"campaign","type":"boolean"}
     ],
     "userModified": true
   },
@@ -229,6 +156,10 @@
           },
           "partitionSelectionMethod": "ALL",
           "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
           "samplingMethod": "FULL",
           "maxRecords": -1,
           "targetRatio": 0.02,
@@ -241,6 +172,10 @@
       },
       "impala": {
         "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
       },
       "python": {}
     },
